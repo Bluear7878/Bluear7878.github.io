@@ -9,7 +9,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
 ## Experience
 - **AI Research Engineer — Platform Team, Quantizer Part**, Nota AI (2026-02–present)
-  - LLM/VLM quantization platform: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant pipelines; NVFP4 and GGUF export paths; MoE all-expert calibration; KV-cache quantization (verifiable via merged internal PR record).
+  - LLM/VLM quantization platform: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant pipelines; NVFP4 and GGUF export paths; MoE all-expert calibration; KV-cache quantization.
   - Model enablement & evaluation: EXAONE 4.0 / MoE, Qwen3 / 3.5(-VL), Phi-3 (LongRoPE), gpt-oss, embedding/reranker and video-diffusion (Wan, Cosmos) evaluation harnesses.
   - K-EXAONE 236B (MoE) optimization for FuriosaAI's data-center NPU, with LG AI Research — ~71% model-size reduction at ~99.2% accuracy retention (GPQA 79.80, IFBench 68.98, AIME25 88.57); announced 2026-06-30.
 
@@ -19,7 +19,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - **B.S.** in Computer Science, Kyungpook National University (KNU) (2013-03–2019-08)
 
 ## Research
-- **StreamPRS** (2026): Single-context-prefill approximation of KVzip's reconstruction-based KV-cache eviction; contributions framed as Factorization / Method / System. (Scope-limited per claims ledger — do not overstate.)
+- **StreamPRS** (2026): Single-context-prefill approximation of KVzip's reconstruction-based KV-cache eviction; contributions framed as Factorization / Method / System.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
@@ -42,6 +42,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
   - Fixed `_init_weights` reading a quantized child's `weight`, which broke loading CLIP-family quantized checkpoints (#47921)
 
 ## Publications
+- A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (Accepted)
 - H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models. *IEEE Open Journal of the Computer Society*, 2025.
 - A Novel VLM-Guided Diffusion Model for Remote Sensing Image Super-Resolution. *IEEE Geoscience and Remote Sensing Letters*, 2025. (Best Paper Award, KNU-EE Research Congress)
 - DeCo-MeSC: Deep Compression-Based Memory-Constrained Split Computing Framework for Cooperative Inference of Neural Network. *IEEE Transactions on Vehicular Technology*, 2025.
@@ -52,7 +53,6 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
 
 ## Preprints
-- GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-guided Latent Diffusion Model?. [arXiv:2510.26339](https://arxiv.org/abs/2510.26339), 2025.
 - Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
 - No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation. [arXiv:2511.05055](https://arxiv.org/abs/2511.05055), 2025.
 - Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.

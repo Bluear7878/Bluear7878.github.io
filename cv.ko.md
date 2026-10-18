@@ -9,7 +9,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
 ## Experience
 - **AI Research Engineer — Platform팀 Quantizer 파트**, Nota AI (2026-02–present)
-  - LLM/VLM 양자화 플랫폼: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant 파이프라인; NVFP4·GGUF export 경로; MoE all-expert calibration; KV-cache 양자화 (머지된 사내 PR 기록으로 검증 가능).
+  - LLM/VLM 양자화 플랫폼: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant 파이프라인; NVFP4·GGUF export 경로; MoE all-expert calibration; KV-cache 양자화.
   - 모델 지원 및 평가: EXAONE 4.0 / MoE, Qwen3 / 3.5(-VL), Phi-3 (LongRoPE), gpt-oss, embedding/reranker 및 비디오 디퓨전 (Wan, Cosmos) 평가 하네스.
   - LG AI Research 협업, FuriosaAI 데이터센터 NPU용 K-EXAONE 236B (MoE) 최적화 — 모델 크기 약 71% 감축, 정확도 약 99.2% 유지 (GPQA 79.80, IFBench 68.98, AIME25 88.57); 2026-06-30 공개.
 
@@ -19,7 +19,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - **학사 (B.S.)** in 컴퓨터학부, 경북대학교 (KNU) (2013-03–2019-08)
 
 ## Research
-- **StreamPRS** (2026): KVzip의 재구성 기반 KV-cache 축출을 단일-context-prefill로 근사; 기여는 Factorization / Method / System으로 규정. (claims ledger 기준 범위-한정 — 과장 금지.)
+- **StreamPRS** (2026): KVzip의 재구성 기반 KV-cache 축출을 단일-context-prefill로 근사; 기여는 Factorization / Method / System으로 규정.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
@@ -42,6 +42,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
   - 양자화된 자식 모듈의 `weight`를 읽던 `_init_weights` 수정 — CLIP 계열 양자화 체크포인트 로드 실패 (#47921)
 
 ## Publications
+- A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (게재 승인)
 - H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models. *IEEE Open Journal of the Computer Society*, 2025.
 - A Novel VLM-Guided Diffusion Model for Remote Sensing Image Super-Resolution. *IEEE Geoscience and Remote Sensing Letters*, 2025. (Best Paper Award, KNU-EE Research Congress)
 - DeCo-MeSC: Deep Compression-Based Memory-Constrained Split Computing Framework for Cooperative Inference of Neural Network. *IEEE Transactions on Vehicular Technology*, 2025.
@@ -52,7 +53,6 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
 
 ## Preprints
-- GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-guided Latent Diffusion Model?. [arXiv:2510.26339](https://arxiv.org/abs/2510.26339), 2025.
 - Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
 - No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation. [arXiv:2511.05055](https://arxiv.org/abs/2511.05055), 2025.
 - Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.
