@@ -19,7 +19,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - **학사 (B.S.)** in 컴퓨터학부, 경북대학교 (KNU) (2013-03–2019-08)
 
 ## Research
-- **StreamPRS** (2026): KVzip의 재구성 기반 KV-cache 축출을 단일-context-prefill로 근사; 기여는 Factorization / Method / System으로 규정.
+- **RECAP-KV** (2026): KVzip의 재구성 기반 KV-cache 축출을 단일-context-prefill로 근사; 기여는 Factorization / Method / System으로 규정.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs

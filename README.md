@@ -19,7 +19,7 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 - **B.S.** in Computer Science, Kyungpook National University (KNU) (2013-03–2019-08)
 
 ## Research
-- **StreamPRS** (2026): Single-context-prefill approximation of KVzip's reconstruction-based KV-cache eviction; contributions framed as Factorization / Method / System.
+- **RECAP-KV** (2026): Single-context-prefill approximation of KVzip's reconstruction-based KV-cache eviction; contributions framed as Factorization / Method / System.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
