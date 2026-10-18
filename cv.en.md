@@ -5,7 +5,7 @@ Nota AI, Platform Team (Quantizer) · South Korea · mingyu.sung@nota.ai
 
 AI Research Engineer at Nota AI (Platform Team, Quantizer part). Ph.D. in Artificial Intelligence (KNU, 2026). Works on efficient generative-model inference: model quantization, diffusion/LLM cache acceleration, CUDA kernel optimization, split computing, and training-free KV-cache compression. Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 15 merged PRs across Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, and Hugging Face Transformers.
 
-Citations 48 · h-index 4 · i10-index 1 (as of 2026-09-28)
+Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
 ## Experience
 - **AI Research Engineer — Platform Team, Quantizer Part**, Nota AI (2026-02–present)

@@ -5,7 +5,7 @@ Nota AI, Platform팀 (Quantizer) · 대한민국 · mingyu.sung@nota.ai
 
 Nota AI Platform팀 Quantizer 파트의 AI Research Engineer. 인공지능학 박사 (경북대, 2026). 효율적 생성모델 추론 연구: 모델 양자화, 디퓨전/LLM 캐시 가속, CUDA 커널 최적화, split computing, training-free KV-cache 압축. Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers에 총 15개 PR 머지.
 
-Citations 48 · h-index 4 · i10-index 1 (as of 2026-09-28)
+Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
 ## Experience
 - **AI Research Engineer — Platform팀 Quantizer 파트**, Nota AI (2026-02–present)
