@@ -3,7 +3,7 @@
 Nota AI, Platform Team (Quantizer) · South Korea · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-AI Research Engineer at Nota AI (Platform Team, Quantizer part). Ph.D. in Artificial Intelligence (KNU, 2026). Works on efficient generative-model inference: model quantization, diffusion/LLM cache acceleration, CUDA kernel optimization, split computing, and training-free KV-cache compression. Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 15 merged PRs across Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, and Hugging Face Transformers.
+AI Research Engineer at Nota AI (Platform Team, Quantizer part). Ph.D. in Artificial Intelligence (KNU, 2026). Works on efficient generative-model inference: model quantization, diffusion/LLM cache acceleration, CUDA kernel optimization, split computing, and training-free KV-cache compression. Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 16 merged PRs across Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers, and LoopQuant.
 
 Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
@@ -40,6 +40,9 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
   - Fixed float16 overflow in Gemma4 vision pooler (#46277)
   - Fixed Gemma `sliding_window` being halved on every config save/reload, a silent accuracy regression for EmbeddingGemma (#47940)
   - Fixed `_init_weights` reading a quantized child's `weight`, which broke loading CLIP-family quantized checkpoints (#47921)
+- **LoopQuant** (`Kishon-zzx/LoopQuant`) — Contributor · 2026 · 1 merged PRs
+  *Post-training quantization for looped language models (Ouro)*
+  - Fixed the LCTC teacher load resetting the ILPA per-loop activation-bit allocation, which ran the W4A6 configs at A4 in every loop; Ouro-2.6B W4A6 WikiText-2 perplexity 8.10 → 7.85 (#1)
 
 ## Publications
 - A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (Accepted)

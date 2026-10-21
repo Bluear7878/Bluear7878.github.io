@@ -3,7 +3,7 @@
 Nota AI, Platform팀 (Quantizer) · 대한민국 · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-Nota AI Platform팀 Quantizer 파트의 AI Research Engineer. 인공지능학 박사 (경북대, 2026). 효율적 생성모델 추론 연구: 모델 양자화, 디퓨전/LLM 캐시 가속, CUDA 커널 최적화, split computing, training-free KV-cache 압축. Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers에 총 15개 PR 머지.
+Nota AI Platform팀 Quantizer 파트의 AI Research Engineer. 인공지능학 박사 (경북대, 2026). 효율적 생성모델 추론 연구: 모델 양자화, 디퓨전/LLM 캐시 가속, CUDA 커널 최적화, split computing, training-free KV-cache 압축. Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers, LoopQuant에 총 16개 PR 머지.
 
 Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
 
@@ -40,6 +40,9 @@ Citations 50 · h-index 4 · i10-index 2 (as of 2026-10-18)
   - Gemma4 vision pooler의 float16 오버플로 수정 (#46277)
   - config 저장/로드마다 Gemma `sliding_window`가 반감되던 결함 수정 — EmbeddingGemma의 무증상 정확도 회귀 (#47940)
   - 양자화된 자식 모듈의 `weight`를 읽던 `_init_weights` 수정 — CLIP 계열 양자화 체크포인트 로드 실패 (#47921)
+- **LoopQuant** (`Kishon-zzx/LoopQuant`) — Contributor · 2026 · 1 merged PRs
+  *반복 블록 언어모델(looped LM, Ouro)용 사후 양자화 (PTQ)*
+  - LCTC teacher 로드가 ILPA의 loop별 activation 비트 배정을 재설정해 W4A6 설정이 모든 loop를 A4로 실행하던 결함 수정 — 수정 후 Ouro-2.6B W4A6 WikiText-2 perplexity 8.10 → 7.85 (#1)
 
 ## Publications
 - A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (게재 승인)
