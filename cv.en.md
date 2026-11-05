@@ -3,7 +3,9 @@
 Nota AI, Platform Team (Quantizer) · South Korea · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-AI Research Engineer at Nota AI, working on efficient inference for LLMs and diffusion models — quantization, KV-cache compression, cache-based acceleration and CUDA kernel optimization. Ph.D. in Artificial Intelligence, Kyungpook National University (2026). Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight), with 16 merged PRs across Nunchaku, Hugging Face Transformers, ByteDance DreamO and other open-source projects.
+- **Research interests**: Efficient inference for any model family — LLMs, VLMs, VLAs, diffusion models — via quantization, KV-cache compression, cache-based acceleration, speculative decoding and kernel optimization
+- **Education**: Ph.D. in Artificial Intelligence, Kyungpook National University (2026)
+- **Open source**: Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 16 merged PRs across Nunchaku, Hugging Face Transformers, ByteDance DreamO and other projects
 
 Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 

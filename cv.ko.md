@@ -3,7 +3,9 @@
 Nota AI, Platform팀 (Quantizer) · 대한민국 · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-Nota AI 소속 AI Research Engineer. LLM과 디퓨전 모델의 효율적 추론을 연구하며, 주요 분야는 양자화, KV-cache 압축, 캐시 기반 가속, CUDA 커널 최적화. 경북대학교 인공지능학 박사 (2026). Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자이며, Nunchaku, Hugging Face Transformers, ByteDance DreamO 등 오픈소스 프로젝트에 총 16개 PR 머지.
+- **관심 분야**: LLM·VLM·VLA·디퓨전 등 모델 종류에 관계없이 효율적 추론 — 양자화, KV-cache 압축, 캐시 가속, speculative decoding, 커널 최적화
+- **학력**: 경북대학교 인공지능학 박사 (2026)
+- **오픈소스**: Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, Hugging Face Transformers, ByteDance DreamO 등에 총 16개 PR 머지
 
 Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
