@@ -3,23 +3,20 @@
 Nota AI, Platform팀 (Quantizer) · 대한민국 · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-Nota AI Platform팀 Quantizer 파트의 AI Research Engineer. 인공지능학 박사 (경북대, 2026). 효율적 생성모델 추론 연구: 모델 양자화, 디퓨전/LLM 캐시 가속, CUDA 커널 최적화, split computing, training-free KV-cache 압축. Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers, LoopQuant에 총 16개 PR 머지.
+Nota AI 소속 AI Research Engineer. LLM과 디퓨전 모델의 효율적 추론을 연구하며, 주요 분야는 양자화, KV-cache 압축, 캐시 기반 가속, CUDA 커널 최적화. 경북대학교 인공지능학 박사 (2026). Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자이며, Nunchaku, Hugging Face Transformers, ByteDance DreamO 등 오픈소스 프로젝트에 총 16개 PR 머지.
 
 Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
 ## Experience
 - **AI Research Engineer — Platform팀 Quantizer 파트**, Nota AI (2026-02–present)
-  - LLM/VLM 양자화 플랫폼: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant 파이프라인; NVFP4·GGUF export 경로; MoE all-expert calibration; KV-cache 양자화.
-  - 모델 지원 및 평가: EXAONE 4.0 / MoE, Qwen3 / 3.5(-VL), Phi-3 (LongRoPE), gpt-oss, embedding/reranker 및 비디오 디퓨전 (Wan, Cosmos) 평가 하네스.
-  - LG AI Research 협업, FuriosaAI 데이터센터 NPU용 K-EXAONE 236B (MoE) 최적화 — 모델 크기 약 71% 감축, 정확도 약 99.2% 유지 (GPQA 79.80, IFBench 68.98, AIME25 88.57); 2026-06-30 공개.
+  - Nota LLM/VLM 양자화 플랫폼 개발: PTQ 알고리즘(GPTQ, AWQ, SmoothQuant, 회전 기반), KV-cache 양자화, 저비트 export(NVFP4, GGUF).
+  - LLM·VLM·MoE·임베딩·비디오 디퓨전 모델의 지원 및 평가 범위 확장.
+  - LG AI Research 협업, FuriosaAI 데이터센터 NPU용 K-EXAONE 236B (MoE) 최적화 — 모델 크기 약 71% 감축, 정확도 약 99.2% 유지.
 
 ## Education
 - **박사 (Ph.D.)** in 인공지능학과, 경북대학교 (KNU) (2021-08–2026-02)
 - **석사 (M.S.)** in 컴퓨터학부, 경북대학교 (KNU) (2019-09–2021-08)
 - **학사 (B.S.)** in 컴퓨터학부, 경북대학교 (KNU) (2013-03–2019-08)
-
-## Research
-- **RECAP-KV** (2026): KVzip의 재구성 기반 KV-cache 축출을 단일-context-prefill로 근사; 기여는 Factorization / Method / System으로 규정.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
@@ -56,6 +53,7 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 - Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
 
 ## Preprints
+- RECAP-KV: Single-Prefill Approximation of Reconstruction Importance for Reusable KV Cache Eviction. [OpenReview](https://openreview.net/forum?id=y5WiK71CrM), 2026.
 - Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
 - No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation. [arXiv:2511.05055](https://arxiv.org/abs/2511.05055), 2025.
 - Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.

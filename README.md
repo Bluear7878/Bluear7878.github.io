@@ -3,23 +3,20 @@
 Nota AI, Platform Team (Quantizer) · South Korea · mingyu.sung@nota.ai
 [github](https://github.com/Bluear7878) · [homepage](https://bluear7878.github.io) · [scholar](https://scholar.google.co.kr/citations?user=TZw2NQgAAAAJ) · [linkedin](https://www.linkedin.com/in/mingyu-sung-83040b192/)
 
-AI Research Engineer at Nota AI (Platform Team, Quantizer part). Ph.D. in Artificial Intelligence (KNU, 2026). Works on efficient generative-model inference: model quantization, diffusion/LLM cache acceleration, CUDA kernel optimization, split computing, and training-free KV-cache compression. Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 16 merged PRs across Nunchaku, ComfyUI-nunchaku, ByteDance DreamO, Hugging Face Transformers, and LoopQuant.
+AI Research Engineer at Nota AI, working on efficient inference for LLMs and diffusion models — quantization, KV-cache compression, cache-based acceleration and CUDA kernel optimization. Ph.D. in Artificial Intelligence, Kyungpook National University (2026). Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight), with 16 merged PRs across Nunchaku, Hugging Face Transformers, ByteDance DreamO and other open-source projects.
 
 Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
 ## Experience
 - **AI Research Engineer — Platform Team, Quantizer Part**, Nota AI (2026-02–present)
-  - LLM/VLM quantization platform: GPTQ, AWQ, SmoothQuant, QuaRot/SpinQuant pipelines; NVFP4 and GGUF export paths; MoE all-expert calibration; KV-cache quantization.
-  - Model enablement & evaluation: EXAONE 4.0 / MoE, Qwen3 / 3.5(-VL), Phi-3 (LongRoPE), gpt-oss, embedding/reranker and video-diffusion (Wan, Cosmos) evaluation harnesses.
-  - K-EXAONE 236B (MoE) optimization for FuriosaAI's data-center NPU, with LG AI Research — ~71% model-size reduction at ~99.2% accuracy retention (GPQA 79.80, IFBench 68.98, AIME25 88.57); announced 2026-06-30.
+  - Develop Nota's LLM/VLM quantization platform: post-training quantization (GPTQ, AWQ, SmoothQuant, rotation-based), KV-cache quantization, and low-bit export (NVFP4, GGUF).
+  - Extend model support and evaluation across LLM, VLM, MoE, embedding and video-diffusion models.
+  - Optimized K-EXAONE 236B (MoE) for FuriosaAI's data-center NPU with LG AI Research: ~71% smaller model at ~99.2% accuracy retention.
 
 ## Education
 - **Ph.D.** in Artificial Intelligence, Kyungpook National University (KNU) (2021-08–2026-02)
 - **M.S.** in Computer Science, Kyungpook National University (KNU) (2019-09–2021-08)
 - **B.S.** in Computer Science, Kyungpook National University (KNU) (2013-03–2019-08)
-
-## Research
-- **RECAP-KV** (2026): Single-context-prefill approximation of KVzip's reconstruction-based KV-cache eviction; contributions framed as Factorization / Method / System.
 
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
@@ -56,6 +53,7 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 - Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
 
 ## Preprints
+- RECAP-KV: Single-Prefill Approximation of Reconstruction Importance for Reusable KV Cache Eviction. [OpenReview](https://openreview.net/forum?id=y5WiK71CrM), 2026.
 - Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
 - No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation. [arXiv:2511.05055](https://arxiv.org/abs/2511.05055), 2025.
 - Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.
