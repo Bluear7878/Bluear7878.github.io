@@ -11,9 +11,9 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
 ## Experience
 - **AI Research Engineer — Platform팀 Quantizer 파트**, Nota AI (2026-02–present)
+  - FuriosaAI 고객사 담당 Technical Lead (2026-04 ~ 현재): 고객사 기술 대응, 직접 개발한 양자화 툴 납품.
   - Nota LLM/VLM 양자화 플랫폼 개발: PTQ 알고리즘(GPTQ, AWQ, SmoothQuant, 회전 기반), KV-cache 양자화, 저비트 export(NVFP4, GGUF).
   - LLM·VLM·MoE·임베딩·비디오 디퓨전 모델의 지원 및 평가 범위 확장.
-  - LG AI Research 협업, FuriosaAI 데이터센터 NPU용 K-EXAONE 236B (MoE) 최적화 — 모델 크기 약 71% 감축, 정확도 약 99.2% 유지.
 
 ## Education
 - **박사 (Ph.D.)** in 인공지능학과, 경북대학교 (KNU) (2021-08–2026-02)

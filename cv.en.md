@@ -11,9 +11,9 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
 ## Experience
 - **AI Research Engineer — Platform Team, Quantizer Part**, Nota AI (2026-02–present)
+  - Technical Lead for the FuriosaAI customer account (Apr 2026 – present): handle technical engagement with the customer and deliver a self-developed quantization tool.
   - Develop Nota's LLM/VLM quantization platform: post-training quantization (GPTQ, AWQ, SmoothQuant, rotation-based), KV-cache quantization, and low-bit export (NVFP4, GGUF).
   - Extend model support and evaluation across LLM, VLM, MoE, embedding and video-diffusion models.
-  - Optimized K-EXAONE 236B (MoE) for FuriosaAI's data-center NPU with LG AI Research: ~71% smaller model at ~99.2% accuracy retention.
 
 ## Education
 - **Ph.D.** in Artificial Intelligence, Kyungpook National University (KNU) (2021-08–2026-02)
