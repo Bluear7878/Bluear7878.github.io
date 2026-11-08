@@ -45,6 +45,7 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 
 ## Publications
 - A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (Accepted)
+- Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation in IoT. *IEEE Internet of Things Journal*, 2026. (Accepted)
 - H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models. *IEEE Open Journal of the Computer Society*, 2025.
 - A Novel VLM-Guided Diffusion Model for Remote Sensing Image Super-Resolution. *IEEE Geoscience and Remote Sensing Letters*, 2025. (Best Paper Award, KNU-EE Research Congress)
 - DeCo-MeSC: Deep Compression-Based Memory-Constrained Split Computing Framework for Cooperative Inference of Neural Network. *IEEE Transactions on Vehicular Technology*, 2025.
@@ -57,7 +58,6 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 ## Preprints
 - RECAP-KV: Single-Prefill Approximation of Reconstruction Importance for Reusable KV Cache Eviction. [OpenReview](https://openreview.net/forum?id=y5WiK71CrM), 2026.
 - Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
-- No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation. [arXiv:2511.05055](https://arxiv.org/abs/2511.05055), 2025.
 - Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.
 - Range Asymmetric Numeral Systems-Based Lightweight Intermediate Feature Compression for Split Computing of Deep Neural Networks. [arXiv:2511.11664](https://arxiv.org/abs/2511.11664), 2025.
 
