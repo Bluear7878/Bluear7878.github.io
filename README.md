@@ -20,6 +20,24 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 - **M.S.** in Computer Science, Kyungpook National University (KNU) (2019-09–2021-08)
 - **B.S.** in Computer Science, Kyungpook National University (KNU) (2013-03–2019-08)
 
+## Publications
+- A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (Accepted)
+- Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation in IoT. *IEEE Internet of Things Journal*, 2026. (Accepted)
+- H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models. *IEEE Open Journal of the Computer Society*, 2025.
+- A Novel VLM-Guided Diffusion Model for Remote Sensing Image Super-Resolution. *IEEE Geoscience and Remote Sensing Letters*, 2025. (Best Paper Award, KNU-EE Research Congress)
+- DeCo-MeSC: Deep Compression-Based Memory-Constrained Split Computing Framework for Cooperative Inference of Neural Network. *IEEE Transactions on Vehicular Technology*, 2025.
+- Generative Diffusion Model-Based Deep Learning Framework for Remaining Useful Life Prediction. *IEEE Internet of Things Journal*, 2025. (Co-first author)
+- Entropy-based sampling for efficient training of deep learning on CNC machining dataset. *Electronics Letters*, 2024.
+- Probabilistic Classification Method of Spiking Neural Network Based on Multi-Labeling of Neurons. *Mathematics*, 2023.
+- Training and Inference using Approximate Floating-Point Arithmetic for Energy Efficient Spiking Neural Network Processors. *ICEIC*, 2021.
+- Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
+
+## Preprints
+- RECAP-KV: Single-Prefill Approximation of Reconstruction Importance for Reusable KV Cache Eviction. [OpenReview](https://openreview.net/forum?id=y5WiK71CrM), 2026.
+- Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
+- Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.
+- Range Asymmetric Numeral Systems-Based Lightweight Intermediate Feature Compression for Split Computing of Deep Neural Networks. [arXiv:2511.11664](https://arxiv.org/abs/2511.11664), 2025.
+
 ## Open Source
 - **Nunchaku** (`nunchux-ai/nunchaku`) — Core Contributor · 2025 – 2026-02 · 9 merged PRs
   *CUDA acceleration engine for 4-bit neural networks (ICLR 2025 Spotlight, 3.9k+ stars)*
@@ -42,24 +60,6 @@ Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
 - **LoopQuant** (`Kishon-zzx/LoopQuant`) — Contributor · 2026 · 1 merged PRs
   *Post-training quantization for looped language models (Ouro)*
   - Fixed the LCTC teacher load resetting the ILPA per-loop activation-bit allocation, which ran the W4A6 configs at A4 in every loop; Ouro-2.6B W4A6 WikiText-2 perplexity 8.10 → 7.85 (#1)
-
-## Publications
-- A Bi-Objective Framework for Scene Text Super-Resolution: Balancing Legibility and Fidelity. *Transactions on Machine Learning Research (TMLR)*, 2026. (Accepted)
-- Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation in IoT. *IEEE Internet of Things Journal*, 2026. (Accepted)
-- H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models. *IEEE Open Journal of the Computer Society*, 2025.
-- A Novel VLM-Guided Diffusion Model for Remote Sensing Image Super-Resolution. *IEEE Geoscience and Remote Sensing Letters*, 2025. (Best Paper Award, KNU-EE Research Congress)
-- DeCo-MeSC: Deep Compression-Based Memory-Constrained Split Computing Framework for Cooperative Inference of Neural Network. *IEEE Transactions on Vehicular Technology*, 2025.
-- Generative Diffusion Model-Based Deep Learning Framework for Remaining Useful Life Prediction. *IEEE Internet of Things Journal*, 2025. (Co-first author)
-- Entropy-based sampling for efficient training of deep learning on CNC machining dataset. *Electronics Letters*, 2024.
-- Probabilistic Classification Method of Spiking Neural Network Based on Multi-Labeling of Neurons. *Mathematics*, 2023.
-- Training and Inference using Approximate Floating-Point Arithmetic for Energy Efficient Spiking Neural Network Processors. *ICEIC*, 2021.
-- Training spiking neural networks with an adaptive leaky integrate-and-fire neuron. *IEEE ICCE-Asia*, 2020.
-
-## Preprints
-- RECAP-KV: Single-Prefill Approximation of Reconstruction Importance for Reusable KV Cache Eviction. [OpenReview](https://openreview.net/forum?id=y5WiK71CrM), 2026.
-- Memory- and Latency-Constrained Inference of Large Language Models via Adaptive Split Computing. [arXiv:2511.04002](https://arxiv.org/abs/2511.04002), 2025.
-- Why Should the Server Do It All?: A Scalable, Versatile, and Model-Agnostic Framework for Server-Light DNN Inference over Massively Distributed Clients via Training-Free Intermediate Feature Compression. [arXiv:2511.11608](https://arxiv.org/abs/2511.11608), 2025.
-- Range Asymmetric Numeral Systems-Based Lightweight Intermediate Feature Compression for Split Computing of Deep Neural Networks. [arXiv:2511.11664](https://arxiv.org/abs/2511.11664), 2025.
 
 ## Projects
 - **[K-EXAONE 236B MoE Optimization (Nota AI × LG AI Research × FuriosaAI)](https://blog.nota.ai/newsroom/k-exaone-moe-optimization)** (2026), Quantization Engineer — Optimized the 236B-parameter MoE model for FuriosaAI's data-center NPU via targeted precision analysis of degradation-prone sections — ~71% size reduction with ~99.2% accuracy retention (GPQA 79.80 / IFBench 68.98 / AIME25 88.57).
