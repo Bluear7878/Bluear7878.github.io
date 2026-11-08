@@ -7,7 +7,7 @@ Nota AI, Platform팀 (Quantizer) · 대한민국 · mingyu.sung@nota.ai
 - **학력**: 경북대학교 인공지능학 박사 (2026)
 - **오픈소스**: Nunchaku CUDA 가속 엔진 (ICLR 2025 Spotlight) 핵심 기여자; Nunchaku, Hugging Face Transformers, ByteDance DreamO 등에 총 16개 PR 머지
 
-Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
+Citations 52 · h-index 4 · i10-index 2 (as of 2026-11-09)
 
 ## Experience
 - **AI Research Engineer — Platform팀 Quantizer 파트**, Nota AI (2026-02–present)

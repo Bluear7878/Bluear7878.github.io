@@ -7,7 +7,7 @@ Nota AI, Platform Team (Quantizer) · South Korea · mingyu.sung@nota.ai
 - **Education**: Ph.D. in Artificial Intelligence, Kyungpook National University (2026)
 - **Open source**: Core contributor to the Nunchaku CUDA acceleration engine (ICLR 2025 Spotlight); 16 merged PRs across Nunchaku, Hugging Face Transformers, ByteDance DreamO and other projects
 
-Citations 51 · h-index 4 · i10-index 2 (as of 2026-11-02)
+Citations 52 · h-index 4 · i10-index 2 (as of 2026-11-09)
 
 ## Experience
 - **AI Research Engineer — Platform Team, Quantizer Part**, Nota AI (2026-02–present)
